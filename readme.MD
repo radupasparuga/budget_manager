@@ -1,29 +1,30 @@
-# Budget Manager
+# budget_manager
 
-This application is being developed as part of a tutorial series.
-
-You can access it [here](https://medium.com/netscape/building-a-budget-manager-with-vue-js-and-node-js-part-i-f3d7311822a8).
+> A Vue.js project
 
 ## Build Setup
 
-```bash
-# To install the RESTful API dependencies go to
-# your root folder
-npm i
+``` bash
+# install dependencies
+npm install
 
-# Go to services/BudgetManagerAPI/config/database
-# and setup a MongoDB
-
-# Go back to your root folder
-node services
-
-# In your application folder
-npm i
-
-# Serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8080
 npm run dev
 
-# For more details about npm scripts on application
-# like how to build for production, read the README
-# located inside applications folder
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
 ```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
